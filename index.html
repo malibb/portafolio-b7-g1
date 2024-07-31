@@ -19,7 +19,7 @@
 
     <!--- Cabecera de mi página -->
     <header>
-        <nav class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-md bg-black" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Malinali</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -49,22 +49,23 @@
         </nav>
     </header>
 
-    <main>
+    <main class="pb-3">
 
-        <section id="presentacion" class="container-fluid" data-bs-theme="dark"
-            >
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
             <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
                 <div class="row flex-lg-row align-items-center g-5 py-5">
-                    <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold text-white lh-1 mb-3">Malinali Becerril
+                    <div class="col-lg-6 bg-black p-3">
+                        <h1 class="display-5 fw-bold text-white text-shadow-1 lh-1 mb-3">Malinali Becerril
                         </h1>
-                        <p class="lead text-white text-shadow-1">Una desarrolladora frontend junior, apasionada por las comunidades, los gatos, los
+                        <p class="lead text-white text-shadow-1">Una desarrolladora frontend junior, apasionada por las
+                            comunidades, los gatos, los
                             perros y
-                            las bicicletas. Una lectora de closet por las noches y creadora de códigos por las tardes</p>
+                            las bicicletas. Una lectora de closet por las noches y creadora de códigos por las tardes
+                        </p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
                             <button type="button"
-                                class="btn btn-outline-primary btn-lg px-4">malinalibb98@gmail.com</button>
+                                class="btn btn-outline-secondary btn-lg px-4">malinalibb98@gmail.com</button>
                         </div>
                     </div>
                 </div>
@@ -203,17 +204,41 @@
 
     </main>
 
+<footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+<p class="mt-5 text-white text-center texto-gigante">
+<i class="bi bi-file-code-fill"></i>
+</p>
+<h4 class="text-white text-center mb-5">"...Por lo tanto, lo que debemos hacer es esforzarnos y perseverar y NUNCA RENDIRNOS."</h4>
+<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<li class="nav-item fs-1 ">
+<a href="https://github.com/malibb/" target="_blank" class="nav-link px-5 text-body-secondary">
+<i class="bi bi-github text-white"></i>
+</a>
+</li>
 
-    <footer id="contacto" class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-    </footer>
+<li class="nav-item fs-1">
+<a href="https://github.com/malibb/" target="_blank" class="nav-link px-5 text-body-secondary">
+<i class="bi bi-linkedin text-white"></i>
+</a>
+</li>
+<li class="nav-item fs-1 ">
+<a href="https://github.com/malibb/" target="_blank" class="nav-link px-5 text-body-secondary">
+<i class="bi bi-instagram text-white"></i>
+</a>
+</li>
+
+<li class="nav-item fs-1">
+<a href="https://github.com/malibb/" target="_blank" class="nav-link px-5 text-body-secondary">
+<i class="bi bi-tiktok text-white"></i>
+</a>
+</li>
+</ul>
+<p class="text-center text-white">© 2024 Malinali, TECHNOLOCHICAS PRO</p>
+</footer>
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
