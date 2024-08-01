@@ -39,3 +39,16 @@
 .texto-gigante{
     font-size: 80px;
 }
+
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sankofa-display-regular {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
