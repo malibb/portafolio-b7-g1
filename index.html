@@ -21,8 +21,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body id="audio">
+    <audio autoplay>
+        <source src="assets/music/please.mp3" type="audio/mpeg"> 
+    </audio>
+    
     <!--- Cabecera de mi página -->
     <header>
         <nav class="navbar fixed-top navbar-expand-md bg-black" data-bs-theme="dark">
@@ -48,6 +51,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="pauseButton">Pausar</button>
                         </li>
                     </ul>
                 </div>
@@ -216,6 +222,9 @@
         <p class="mt-5 text-white text-center texto-gigante">
             <i class="bi bi-file-code-fill"></i>
         </p>
+        <div class="text-center">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciE9HOM7SV1Jr_wMxVl308oIUJ7u0BcqoNCKrgu_wYu7nPIQ/viewform?embedded=true" width="640" height="350" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> 
+        </div>
         <h4 id="frase" class="text-white text-center mb-5">"...Por lo tanto, lo que debemos hacer es esforzarnos y perseverar y
             NUNCA RENDIRNOS."</h4>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
